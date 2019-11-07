@@ -123,7 +123,7 @@
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
 
-        <!-- Smart Pause -->
+    <!-- Smart Pause -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>
     <string name="adaptive_playback_enabled">Use smart pause</string>
     <string name="adaptive_playback_disabled_summary">Off</string>
@@ -141,5 +141,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
 </resources>
