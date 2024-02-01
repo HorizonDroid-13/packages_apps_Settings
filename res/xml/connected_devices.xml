@@ -18,7 +18,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="connected_devices_screen"
-    android:title="@string/connected_devices_dashboard_title">
+    android:title="">
+
+    <!-- Switch Fragment Title To Banner View -->
+
+    <Preference
+        settings:layout="@layout/afterlife_connected_header"
+        android:order="-999" />
+
 
     <com.android.settings.slices.SlicePreference
         android:key="bt_nearby_slice"
@@ -46,6 +53,14 @@
         settings:userRestriction="no_config_bluetooth"
         settings:useAdminDisabledSummary="true"
         settings:controller="com.android.settings.connecteddevice.AddDevicePreferenceController"/>
+
+    <androidx.preference.ListPreference
+        android:key="bluetooth_timeout"
+        android:title="@string/bluetooth_timeout"
+        android:summary="@string/summary_placeholder"
+        android:entries="@array/bluetooth_timeout_entries"
+        android:entryValues="@array/bluetooth_timeout_values"
+        settings:controller="com.android.settings.bluetooth.BluetoothTimeoutPreferenceController"/>
 
     <PreferenceCategory
         android:key="previously_connected_devices"
