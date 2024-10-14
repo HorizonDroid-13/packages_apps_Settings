@@ -45,7 +45,7 @@ public class HorizonVersionDetailPreferenceController extends BasePreferenceCont
 
     private static final String KEY_HORIZON_BUILD_VERSION_PROP = "org.horizon.build_version";
     private static final String KEY_HORIZON_CODENAME_VERSION_PROP = "org.horizon.codename";
-    private static final String KEY_HORIZON_DEVICE_PROP = "org.horizon.device";
+    private static final String KEY_HORIZON_DEVICE_PROP = "ro.product.device";
     private static final String KEY_HORIZON_RELEASE_TYPE_PROP = "org.horizon.build_type";
     private static final String KEY_HORIZON_RELEASE_VERSION_PROP = "org.horizon.version.display";
 
